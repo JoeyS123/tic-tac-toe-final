@@ -9,11 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 let me = 8
+    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    
+        view.backgroundColor  = .cyan
     }
-
-
 }
 
