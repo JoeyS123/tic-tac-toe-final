@@ -54,6 +54,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="X">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="a1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="ScE-H2-i7b"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSZ-z1-jq8">
                                                 <rect key="frame" x="124.5" y="0.0" width="124" height="121"/>
@@ -186,6 +189,7 @@
                     <navigationItem key="navigationItem" id="F2e-JV-tXA"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRW-az-5Js" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="D6e-Uo-EeV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="-443" y="-627"/>
         </scene>
