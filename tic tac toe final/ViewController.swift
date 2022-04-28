@@ -16,5 +16,13 @@ let me = 8
     
         view.backgroundColor  = .cyan
     }
+
+    @IBAction func histroyButton(_ sender: Any) {
+  
+  //      UIApplication.shared.open(URL, options: <#T##[UIApplication.OpenExternalURLOptionsKey : Any]#>, completionHandler: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
+    
+    }
+    
+
 }
 
