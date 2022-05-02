@@ -17,8 +17,8 @@ class ViewController: UIViewController {
         view.backgroundColor  = .cyan
     }
 
-    @IBAction func histroyButton(_ sender: Any) {
-  
+    @IBAction func historyLink(_ sender: Any) {
+
         UIApplication.shared.open(URL(string: "https://aurosi.com/blog/the-history-of-tic-tac-toe-and-where-it-is-now/)")! as URL, options: [ : ], completionHandler: nil)
     
     }
