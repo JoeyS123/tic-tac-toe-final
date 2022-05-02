@@ -7,8 +7,19 @@
 
 import UIKit
 
-class _ViewController: UIViewController {
+class ViewController2: UIViewController {
 
+   
+   
+    @IBOutlet weak var top1: UIButton!
+    @IBOutlet weak var top2: UIButton!
+    @IBOutlet weak var top3: UIButton!
+    @IBOutlet weak var mid1: UIButton!
+    @IBOutlet weak var mid2: UIButton!
+    @IBOutlet weak var mid3: UIButton!
+    @IBOutlet weak var bot1: UIButton!
+    @IBOutlet weak var bot2: UIButton!
+    @IBOutlet weak var bot3: UIButton!
    
     
     override func viewDidLoad() {
@@ -18,32 +29,7 @@ class _ViewController: UIViewController {
     
     }
     
-    @IBAction func top1(_ sender: Any) {
-    }
-    
-    @IBAction func top2(_ sender: Any) {
-    }
-    
-    @IBAction func top3(_ sender: Any) {
-    }
-    
-    @IBAction func mid1(_ sender: Any) {
-    }
-    
-    @IBAction func mid2(_ sender: Any) {
-    }
-    
-    @IBAction func mid3(_ sender: Any) {
-    }
    
-    @IBAction func bottom1(_ sender: Any) {
-    }
-    
-    @IBAction func bottom2(_ sender: Any) {
-    }
-    
-    @IBAction func bottom3(_ sender: Any) {
-    }
     
     
     

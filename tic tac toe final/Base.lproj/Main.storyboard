@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="2115.9420289855075" y="-676.33928571428567"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller2-->
         <scene sceneID="LG8-BG-z2m">
             <objects>
-                <viewController id="CQu-fA-d7J" sceneMemberID="viewController">
+                <viewController id="CQu-fA-d7J" customClass="ViewController2" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="X9j-Oz-eNt">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -56,6 +56,7 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="a1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="ScE-H2-i7b"/>
+                                                    <action selector="top1:" destination="CQu-fA-d7J" eventType="touchUpInside" id="UQ0-T9-D30"/>
                                                     <action selector="top1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="f9z-7Q-zSO"/>
                                                 </connections>
                                             </button>
@@ -212,6 +213,17 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="F2e-JV-tXA"/>
+                    <connections>
+                        <outlet property="bot1" destination="Jnl-QX-ovx" id="hVS-rY-21B"/>
+                        <outlet property="bot2" destination="7TU-uR-hNM" id="TvL-z6-rvi"/>
+                        <outlet property="bot3" destination="PCn-90-xS1" id="bCM-Ww-ab8"/>
+                        <outlet property="mid1" destination="DKa-ro-1ZJ" id="RIl-1e-ron"/>
+                        <outlet property="mid2" destination="9gb-yE-DnO" id="aqL-s5-ocF"/>
+                        <outlet property="mid3" destination="nTC-kK-oj6" id="94n-qo-77f"/>
+                        <outlet property="top1" destination="dJM-7r-ef6" id="HMc-JN-Hg7"/>
+                        <outlet property="top2" destination="WSZ-z1-jq8" id="B7z-xo-ha4"/>
+                        <outlet property="top3" destination="Mtl-QH-g9Z" id="mFd-PS-txT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRW-az-5Js" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="D6e-Uo-EeV" userLabel="Exit" sceneMemberID="exit"/>
