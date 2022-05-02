@@ -232,6 +232,7 @@
                         <outlet property="top1" destination="dJM-7r-ef6" id="HMc-JN-Hg7"/>
                         <outlet property="top2" destination="WSZ-z1-jq8" id="B7z-xo-ha4"/>
                         <outlet property="top3" destination="Mtl-QH-g9Z" id="mFd-PS-txT"/>
+                        <outlet property="turnLabel" destination="CeT-vv-UaE" id="8eX-Ph-46N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRW-az-5Js" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -15,7 +15,8 @@ class ViewController2: UIViewController {
     
 
    
-   
+    @IBOutlet weak var turnLabel: UILabel!
+    
     @IBOutlet weak var top1: UIButton!
     @IBOutlet weak var top2: UIButton!
     @IBOutlet weak var top3: UIButton!
@@ -44,14 +45,21 @@ class ViewController2: UIViewController {
         {
             if(currentTurn == Turn.letterX)
             {
-              // sender.setTitle(LETTERX, for: .normal)
-              //  currentTurn = turn.letterO
-                
+               sender.setTitle(letterX, for: .normal)
+                currentTurn = Turn.letterO
+                turnLabel.text = letterO
+            }
+            else if(currentTurn == Turn.letterO)
+            {
+                sender.setTitle(letterO, for: .normal)
+                currentTurn = Turn.letterX
+                turnLabel.text = letterX
+            }
             }
         
         }
     }
-}
+
 
     
     
