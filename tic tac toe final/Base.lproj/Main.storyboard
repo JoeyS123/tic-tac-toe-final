@@ -56,6 +56,7 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="a1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="ScE-H2-i7b"/>
+                                                    <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="kBQ-H2-rB1"/>
                                                     <action selector="top1:" destination="CQu-fA-d7J" eventType="touchUpInside" id="UQ0-T9-D30"/>
                                                     <action selector="top1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="f9z-7Q-zSO"/>
                                                 </connections>
@@ -68,6 +69,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="JZm-X5-6ES"/>
                                                     <action selector="top2:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="dbl-EQ-dzD"/>
                                                 </connections>
                                             </button>
@@ -79,6 +81,7 @@
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                 </buttonConfiguration>
                                                 <connections>
+                                                    <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="JLz-0g-Ohg"/>
                                                     <action selector="top3:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="GRk-9W-2xy"/>
                                                 </connections>
                                             </button>
@@ -99,6 +102,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="SOJ-qJ-H16"/>
                                                             <action selector="mid1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="xY4-ta-5ZN"/>
                                                         </connections>
                                                     </button>
@@ -110,6 +114,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="Vmz-sp-ZEO"/>
                                                             <action selector="mid2:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="dbB-sp-WqJ"/>
                                                         </connections>
                                                     </button>
@@ -121,6 +126,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="X50-xL-ySB"/>
                                                             <action selector="mid3:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="bFh-Dc-DJR"/>
                                                         </connections>
                                                     </button>
@@ -147,6 +153,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="aS2-4z-jdc"/>
                                                             <action selector="bottom1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="iB4-gQ-E2U"/>
                                                         </connections>
                                                     </button>
@@ -158,6 +165,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="CNr-OC-KMj"/>
                                                             <action selector="bottom2:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="BHO-PN-SS4"/>
                                                         </connections>
                                                     </button>
@@ -169,6 +177,7 @@
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
                                                         <connections>
+                                                            <action selector="boardTapAction:" destination="CQu-fA-d7J" eventType="touchUpInside" id="5LV-r4-9lh"/>
                                                             <action selector="bottom3:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="Hv9-fX-BUV"/>
                                                         </connections>
                                                     </button>

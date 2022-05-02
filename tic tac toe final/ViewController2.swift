@@ -8,6 +8,11 @@
 import UIKit
 
 class ViewController2: UIViewController {
+    enum Turn {
+        case letterX
+        case letterO
+    }
+    
 
    
    
@@ -21,6 +26,9 @@ class ViewController2: UIViewController {
     @IBOutlet weak var bot2: UIButton!
     @IBOutlet weak var bot3: UIButton!
    
+    var firstTurn = Turn.letterO
+    var currentTurn = Turn.letterO
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,7 +37,9 @@ class ViewController2: UIViewController {
     
     }
     
-   
+    @IBAction func boardTapAction(_ sender: Any) {
+    }
+    
     
     
     
