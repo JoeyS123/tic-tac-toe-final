@@ -18,7 +18,42 @@ class _ViewController: UIViewController {
     
     }
     
-
+    @IBAction func top1(_ sender: Any) {
+    }
+    
+    @IBAction func top2(_ sender: Any) {
+    }
+    
+    @IBAction func top3(_ sender: Any) {
+    }
+    
+    @IBAction func mid1(_ sender: Any) {
+    }
+    
+    @IBAction func mid2(_ sender: Any) {
+    }
+    
+    @IBAction func mid3(_ sender: Any) {
+    }
+   
+    @IBAction func bottom1(_ sender: Any) {
+    }
+    
+    @IBAction func bottom2(_ sender: Any) {
+    }
+    
+    @IBAction func bottom3(_ sender: Any) {
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     /*
     // MARK: - Navigation
 
