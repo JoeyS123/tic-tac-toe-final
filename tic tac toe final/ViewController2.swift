@@ -28,20 +28,31 @@ class ViewController2: UIViewController {
    
     var firstTurn = Turn.letterO
     var currentTurn = Turn.letterO
-    
+    var letterX = "O"
+    var letterO = "X"
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
- 
-    
     }
     
     @IBAction func boardTapAction(_ sender: Any) {
     }
     
-    
-    
+    func addToBoard(_ sender: UIButton)
+    {
+        if(sender.title(for: .normal) == nil)
+        {
+            if(currentTurn == Turn.letterX)
+            {
+              // sender.setTitle(LETTERX, for: .normal)
+              //  currentTurn = turn.letterO
+                
+            }
+        
+        }
+    }
+}
+
     
     
     
@@ -60,4 +71,4 @@ class ViewController2: UIViewController {
     }
     */
 
-}
+
