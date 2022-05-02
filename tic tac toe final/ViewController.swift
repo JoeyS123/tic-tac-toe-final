@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
     @IBAction func histroyButton(_ sender: Any) {
   
-  //      UIApplication.shared.open(URL, options: <#T##[UIApplication.OpenExternalURLOptionsKey : Any]#>, completionHandler: <#T##((Bool) -> Void)?##((Bool) -> Void)?##(Bool) -> Void#>)
+        UIApplication.shared.open(URL(string: "https://aurosi.com/blog/the-history-of-tic-tac-toe-and-where-it-is-now/)")! as URL, options: [ : ], completionHandler: nil)
     
     }
     
