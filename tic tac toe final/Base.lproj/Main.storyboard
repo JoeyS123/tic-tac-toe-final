@@ -56,6 +56,7 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="a1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="ScE-H2-i7b"/>
+                                                    <action selector="top1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="f9z-7Q-zSO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSZ-z1-jq8">
@@ -65,6 +66,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="X">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="top2:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="dbl-EQ-dzD"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mtl-QH-g9Z">
                                                 <rect key="frame" x="248.5" y="0.0" width="124.5" height="121"/>
@@ -73,6 +77,9 @@
                                                 <buttonConfiguration key="configuration" style="plain" title="X">
                                                     <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                 </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="top3:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="GRk-9W-2xy"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
@@ -90,6 +97,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="mid1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="xY4-ta-5ZN"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gb-yE-DnO">
                                                         <rect key="frame" x="124.5" y="0.0" width="124" height="121"/>
@@ -98,6 +108,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="mid2:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="dbB-sp-WqJ"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTC-kK-oj6">
                                                         <rect key="frame" x="248.5" y="0.0" width="124.5" height="121"/>
@@ -106,6 +119,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="mid3:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="bFh-Dc-DJR"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemCyanColor"/>
@@ -129,6 +145,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="bottom1:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="iB4-gQ-E2U"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7TU-uR-hNM">
                                                         <rect key="frame" x="124.5" y="0.0" width="124" height="121"/>
@@ -137,6 +156,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="bottom2:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="BHO-PN-SS4"/>
+                                                        </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PCn-90-xS1">
                                                         <rect key="frame" x="248.5" y="0.0" width="124.5" height="121"/>
@@ -145,6 +167,9 @@
                                                         <buttonConfiguration key="configuration" style="plain" title="X">
                                                             <fontDescription key="titleFontDescription" type="system" pointSize="60"/>
                                                         </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="bottom3:" destination="D6e-Uo-EeV" eventType="touchUpInside" id="Hv9-fX-BUV"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
