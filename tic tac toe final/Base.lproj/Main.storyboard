@@ -397,10 +397,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzP-vL-qm1">
-                                <rect key="frame" x="96" y="490" width="228" height="80"/>
+                                <rect key="frame" x="96" y="490" width="240" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="EXAMPLES">
+                                <buttonConfiguration key="configuration" style="filled" title="EXAMPLES       (click)">
                                     <fontDescription key="titleFontDescription" type="system" pointSize="31"/>
                                     <color key="baseBackgroundColor" systemColor="systemOrangeColor"/>
                                 </buttonConfiguration>
