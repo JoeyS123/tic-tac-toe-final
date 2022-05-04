@@ -33,6 +33,22 @@
             </objects>
             <point key="canvasLocation" x="2115.9420289855075" y="-676.33928571428567"/>
         </scene>
+        <!--Third View Controller-->
+        <scene sceneID="G4v-dk-CQK">
+            <objects>
+                <viewController id="nHB-Vy-cSW" customClass="thirdViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="une-v8-MdO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qTN-1F-kxQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OaJ-oG-eET"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-2q-0cP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-893" y="-726"/>
+        </scene>
         <!--View Controller2-->
         <scene sceneID="LG8-BG-z2m">
             <objects>
@@ -238,7 +254,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MRW-az-5Js" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="D6e-Uo-EeV" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-443" y="-627"/>
+            <point key="canvasLocation" x="-94" y="-676"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="8Kh-SG-XHR">
@@ -358,6 +374,22 @@
                                 <buttonConfiguration key="configuration" style="plain" title="press here"/>
                                 <connections>
                                     <segue destination="8EF-xQ-FNZ" kind="show" id="iaP-Od-teF"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="another new game " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Md-LF-K5Z">
+                                <rect key="frame" x="88" y="518" width="146" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="10B-rI-Ons">
+                                <rect key="frame" x="281" y="508" width="100" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="press here"/>
+                                <connections>
+                                    <segue destination="nHB-Vy-cSW" kind="show" id="ttK-3Q-Gff"/>
                                 </connections>
                             </button>
                         </subviews>

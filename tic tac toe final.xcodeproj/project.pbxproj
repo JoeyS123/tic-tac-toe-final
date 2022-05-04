@@ -17,6 +17,7 @@
 		BF039B7B281878AF008F7525 /* tic_tac_toe_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF039B7A281878AF008F7525 /* tic_tac_toe_finalUITests.swift */; };
 		BF039B7D281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */; };
 		BF848BDC281B1B1500BF89C0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF848BDB281B1B1500BF89C0 /* ViewController2.swift */; };
+		F1488BB5282301EB00207BC1 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1488BB4282301EB00207BC1 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		BF039B7A281878AF008F7525 /* tic_tac_toe_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_finalUITests.swift; sourceTree = "<group>"; };
 		BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF848BDB281B1B1500BF89C0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F1488BB4282301EB00207BC1 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				BF039B59281878AC008F7525 /* AppDelegate.swift */,
 				BF039B5B281878AC008F7525 /* SceneDelegate.swift */,
 				BF039B5F281878AC008F7525 /* Main.storyboard */,
+				F1488BB4282301EB00207BC1 /* thirdViewController.swift */,
 				BF039B5D281878AC008F7525 /* ViewController.swift */,
 				BF848BDB281B1B1500BF89C0 /* ViewController2.swift */,
 				BF039B62281878AE008F7525 /* Assets.xcassets */,
@@ -263,6 +266,7 @@
 			files = (
 				BF039B5E281878AC008F7525 /* ViewController.swift in Sources */,
 				BF848BDC281B1B1500BF89C0 /* ViewController2.swift in Sources */,
+				F1488BB5282301EB00207BC1 /* thirdViewController.swift in Sources */,
 				BF039B5A281878AC008F7525 /* AppDelegate.swift in Sources */,
 				BF039B5C281878AC008F7525 /* SceneDelegate.swift in Sources */,
 			);
