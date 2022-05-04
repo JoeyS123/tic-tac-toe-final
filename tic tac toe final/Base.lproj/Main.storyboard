@@ -52,18 +52,27 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="nSy-wH-Gaa"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mz0-c8-XEz">
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="ii0-fE-7Qn"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-X8-2Pk">
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NwW-or-W4f"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -75,18 +84,27 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="a7E-Cr-r6I"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pvl-7D-z2k">
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="vDV-kN-8Na"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFo-WH-gTv">
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="HoJ-UZ-af2"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -98,18 +116,27 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="enk-vr-DAq"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xv1-Gg-XcM">
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NM6-0Q-WM4"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWm-fG-xDa">
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="kEK-Va-iVD"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
@@ -144,6 +171,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="OaJ-oG-eET"/>
+                    <connections>
+                        <outlet property="bottomOne" destination="W4g-pB-6Hz" id="9eo-Sz-HVw"/>
+                        <outlet property="bottomThree" destination="FWm-fG-xDa" id="pbI-er-5uo"/>
+                        <outlet property="bottomTwo" destination="Xv1-Gg-XcM" id="tVq-pi-c5r"/>
+                        <outlet property="middleOne" destination="Lwq-vC-hpm" id="COP-wP-JWT"/>
+                        <outlet property="middleThree" destination="cFo-WH-gTv" id="PLx-uE-Mjj"/>
+                        <outlet property="middleTwo" destination="pvl-7D-z2k" id="SEq-kj-vSa"/>
+                        <outlet property="topOne" destination="mwt-cc-cU8" id="Kl2-WG-xql"/>
+                        <outlet property="topThree" destination="BvV-X8-2Pk" id="BYI-eA-5rW"/>
+                        <outlet property="topTwo" destination="mz0-c8-XEz" id="zhG-hy-tN3"/>
+                        <outlet property="turnLabel" destination="1Je-oK-nTt" id="H6Y-qo-OUR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-2q-0cP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
