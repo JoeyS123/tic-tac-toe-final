@@ -70,6 +70,8 @@ class thirdViewController: UIViewController {
             button.setTitle(nil, for: .normal)
             button.isEnabled = true
         }
+   
+    
     }
     func fullBoard() -> Bool {
         for button in board {
