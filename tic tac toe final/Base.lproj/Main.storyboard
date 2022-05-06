@@ -166,7 +166,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="nSy-wH-Gaa"/>
                                                 </connections>
@@ -175,7 +175,7 @@
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title=""/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="ii0-fE-7Qn"/>
                                                 </connections>
@@ -184,7 +184,7 @@
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NwW-or-W4f"/>
                                                 </connections>
@@ -198,7 +198,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="a7E-Cr-r6I"/>
                                                 </connections>
@@ -207,7 +207,7 @@
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="vDV-kN-8Na"/>
                                                 </connections>
@@ -216,7 +216,7 @@
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="HoJ-UZ-af2"/>
                                                 </connections>
@@ -230,7 +230,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="enk-vr-DAq"/>
                                                 </connections>
@@ -239,7 +239,7 @@
                                                 <rect key="frame" x="126" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NM6-0Q-WM4"/>
                                                 </connections>
@@ -248,7 +248,7 @@
                                                 <rect key="frame" x="252" y="0.0" width="121" height="121"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="kEK-Va-iVD"/>
                                                 </connections>

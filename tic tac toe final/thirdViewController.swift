@@ -71,11 +71,11 @@ class thirdViewController: UIViewController {
             button.setTitle(nil, for: .normal)
             button.isEnabled = true
         }
-        if(firstTurn == Turn.Nought) {
+        if firstTurn == Turn.Nought {
             firstTurn = Turn.Cross
             turnLabel.text = CROSS
         }
-       else if(firstTurn == Turn.Cross) {
+       else if firstTurn == Turn.Cross {
             firstTurn = Turn.Nought
             turnLabel.text = NOUGHT
        }
@@ -83,7 +83,7 @@ class thirdViewController: UIViewController {
     }
     func fullBoard() -> Bool {
         for button in board {
-            if button.title(for: .normal) == nil{
+            if button.title(for: .normal) == nil {
                 return false
             }
         }
