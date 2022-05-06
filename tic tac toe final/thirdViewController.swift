@@ -52,8 +52,9 @@ class thirdViewController: UIViewController {
 
     addToBoard(sender)
    
-    if(fullBoard()){
-        
+    if(fullBoard())
+    {
+     resultAlert(title: "draw")
     }
 }
     func resultAlert(title: String){
@@ -70,6 +71,15 @@ class thirdViewController: UIViewController {
             button.setTitle(nil, for: .normal)
             button.isEnabled = true
         }
+        if(firstTurn == Turn.Nought) {
+            firstTurn = Turn.Cross
+            turnLabel.text = CROSS
+        }
+       else if(firstTurn == Turn.Cross) {
+            firstTurn = Turn.Nought
+            turnLabel.text = NOUGHT
+       }
+    currentTurn = firstTurn
     }
     func fullBoard() -> Bool {
         for button in board {
@@ -100,3 +110,4 @@ class thirdViewController: UIViewController {
         }
 }
 }
+
