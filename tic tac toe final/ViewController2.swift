@@ -31,12 +31,60 @@ class ViewController2: UIViewController {
     var currentTurn = Turn.letterO
     var letterX = "O"
     var letterO = "X"
-    
+    var board = [UIButton]()
+   
     override func viewDidLoad() {
+    
         super.viewDidLoad()
+        initBoard()
+    }
+    func initBoard(){
+        board.append(top1)
+        board.append(top2)
+        board.append(top3)
+        board.append(mid1)
+        board.append(mid2)
+        board.append(mid3)
+        board.append(bot1)
+        board.append(bot2)
+        board.append(bot3)
+    }
+    @IBAction func boardTapAction(_ sender: Any) {
+    
+        addToBoard(sender as! UIButton)
+    
+        if(fullBoard()){
+            
+        }
+        
+    }
+    func resultAlert(title: String){
+        
+        let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
+        ac.addAction(UIAlertAction(title: "New game", style: .default, handler: { (_) in
+            self.resetBoard()
+        }))
+        self.present(ac, animated: true)
+    }
+    func resetBoard()
+    {
+        for button in board{
+            button.setTitle(nil, for: .normal)
+            button.isEnabled = true
+        }
+       
+    
     }
     
-    @IBAction func boardTapAction(_ sender: Any) {
+    
+    
+    func fullBoard() -> Bool {
+        for button in board {
+            if button.title(for: .normal) == nil{
+                return false
+            }
+        }
+    return true
     }
     
     func addToBoard(_ sender: UIButton)
@@ -55,7 +103,10 @@ class ViewController2: UIViewController {
                 currentTurn = Turn.letterX
                 turnLabel.text = letterX
             }
-            }
+           
+            sender.isEnabled = false
+        
+        }
         
         }
     }

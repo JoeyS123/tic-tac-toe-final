@@ -13,8 +13,6 @@ class thirdViewController: UIViewController {
     case Nought
     case Cross
     }
-    
-    
 
     @IBOutlet weak var turnLabel: UILabel!
     @IBOutlet weak var topOne: UIButton!
@@ -30,24 +28,57 @@ class thirdViewController: UIViewController {
     
     var firstTurn = Turn.Cross
     var currentTurn = Turn.Cross
-    
     var NOUGHT = "O"
     var CROSS = "X"
-    
+    var board = [UIButton]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    
+        initBoard()
     }
-    
+    func initBoard(){
+        board.append(topOne)
+        board.append(topTwo)
+        board.append(topThree)
+        board.append(middleOne)
+        board.append(middleTwo)
+        board.append(middleThree)
+        board.append(bottomOne)
+        board.append(bottomTwo)
+        board.append(bottomThree)
+    }
 
 @IBAction func boardTapAction(_ sender: UIButton) {
 
     addToBoard(sender)
-
+   
+    if(fullBoard()){
+        
+    }
 }
-    
+    func resultAlert(title: String){
+        
+        let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
+        ac.addAction(UIAlertAction(title: "New game", style: .default, handler: { (_) in
+            self.resetBoard()
+        }))
+        self.present(ac, animated: true)
+    }
+    func resetBoard()
+    {
+        for button in board{
+            button.setTitle(nil, for: .normal)
+            button.isEnabled = true
+        }
+    }
+    func fullBoard() -> Bool {
+        for button in board {
+            if button.title(for: .normal) == nil{
+                return false
+            }
+        }
+    return true
+    }
     func addToBoard(_ sender: UIButton)
     {
         if(sender.title(for: .normal) == nil)
@@ -63,9 +94,9 @@ class thirdViewController: UIViewController {
                 sender.setTitle(CROSS, for: .normal)
                 currentTurn = Turn.Nought
                 turnLabel.text = NOUGHT
-            
-        
+
         }
+            sender.isEnabled = false
         }
 }
 }
