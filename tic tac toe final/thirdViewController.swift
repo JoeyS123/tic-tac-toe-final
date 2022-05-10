@@ -48,7 +48,12 @@ class thirdViewController: UIViewController {
         board.append(bottomThree)
     }
 
-@IBAction func boardTapAction(_ sender: UIButton) {
+    @IBAction func randomcolor(_ sender: Any) {
+    
+    
+    
+    }
+    @IBAction func boardTapAction(_ sender: UIButton) {
 
     addToBoard(sender)
    
