@@ -7,6 +7,10 @@
 
 import UIKit
 
+
+//dont use this one
+
+
 class ViewController2: UIViewController {
     enum Turn {
         case letterX

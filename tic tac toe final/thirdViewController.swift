@@ -57,6 +57,27 @@ class thirdViewController: UIViewController {
      resultAlert(title: "draw")
     }
 }
+    func checkForVictory(_ s :String) -> Bool {
+        
+        //  checking for the across wins
+        if thisSymbol(topOne, s) && thisSymbol(topTwo, s)  && thisSymbol(topThree, s) {
+            return true
+        }
+        if thisSymbol(middleOne, s) && thisSymbol(middleTwo, s)  && thisSymbol(middleThree, s) {
+            return true
+        }
+        if thisSymbol(bottomOne, s) && thisSymbol(bottomTwo, s)  && thisSymbol(bottomThree, s) {
+            return true
+        }
+        
+       
+        
+        
+        return false
+    }
+    func thisSymbol(_ button: UIButton, _ symbol: String) -> Bool {
+        return button.title(for: .normal) == symbol
+    }
     func resultAlert(title: String){
         
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
