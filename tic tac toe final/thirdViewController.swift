@@ -52,6 +52,13 @@ class thirdViewController: UIViewController {
 
     addToBoard(sender)
    
+    if checkForVictory(CROSS){
+        resultAlert(title: "Player X wins")
+    }
+    if checkForVictory(NOUGHT){
+        resultAlert(title: "Player O wins")
+    }
+    
     if(fullBoard())
     {
      resultAlert(title: "draw")
@@ -69,9 +76,26 @@ class thirdViewController: UIViewController {
         if thisSymbol(bottomOne, s) && thisSymbol(bottomTwo, s)  && thisSymbol(bottomThree, s) {
             return true
         }
+        // checking for up and down wins
+        if thisSymbol(topOne, s) && thisSymbol(middleOne, s)  && thisSymbol(bottomOne, s) {
+            return true
+        }
+        if thisSymbol(topTwo, s) && thisSymbol(middleTwo, s)  && thisSymbol(bottomTwo, s) {
+            return true
+        }
+        if thisSymbol(topThree, s) && thisSymbol(middleThree, s)  && thisSymbol(bottomThree, s) {
+            return true
+        }
+      // diagonal
+        if thisSymbol(topOne, s) && thisSymbol(middleTwo, s)  && thisSymbol(bottomThree, s) {
+            return true
+        }
+        if thisSymbol(topThree, s) && thisSymbol(middleTwo, s)  && thisSymbol(bottomOne, s) {
+            return true
+        }
+        
         
        
-        
         
         return false
     }
