@@ -32,6 +32,9 @@ class thirdViewController: UIViewController {
     var CROSS = "X"
     var board = [UIButton]()
     
+    var noughtScore = 0
+    var crossesScore = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         initBoard()
@@ -58,9 +61,11 @@ class thirdViewController: UIViewController {
     addToBoard(sender)
    
     if checkForVictory(CROSS){
+        crossesScore += 1
         resultAlert(title: "Player X wins")
     }
     if checkForVictory(NOUGHT){
+        noughtScore += 1
         resultAlert(title: "Player O wins")
     }
     
@@ -108,6 +113,8 @@ class thirdViewController: UIViewController {
         return button.title(for: .normal) == symbol
     }
     func resultAlert(title: String){
+        
+        let message = "\nNoughts  " + String(noughtScore) + "\n\nCrosses" + String(crossesScore)
         
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "New game", style: .default, handler: { (_) in
