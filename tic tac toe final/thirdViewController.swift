@@ -160,8 +160,10 @@ class thirdViewController: UIViewController {
         }
     return true
     }
-    func addToBoard(_ sender: UIButton)
-    {
+    func addToBoard(_ sender: UIButton) {
+        
+        
+        
         if(sender.title(for: .normal) == nil)
         {
             if(currentTurn == Turn.Nought)
