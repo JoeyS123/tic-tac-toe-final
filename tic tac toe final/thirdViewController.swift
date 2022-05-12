@@ -9,6 +9,8 @@ import UIKit
 
 class thirdViewController: UIViewController {
   
+    
+    var randomNumber : Int = 0
     enum Turn {
     case Nought
     case Cross
@@ -50,8 +52,30 @@ class thirdViewController: UIViewController {
 
     @IBAction func randomcolor(_ sender: Any) {
     
+    randomNumber = Int(arc4random_uniform(6))
+        print(randomNumber)
     
-    
+    if randomNumber == 1 {
+        view.backgroundColor = .gray
+    }
+    if randomNumber == 1 {
+        view.backgroundColor = .red
+    }
+    if randomNumber == 2 {
+        view.backgroundColor = .orange
+    }
+    if randomNumber == 3 {
+        view.backgroundColor = .yellow
+    }
+    if randomNumber == 4 {
+        view.backgroundColor = .green
+    }
+    if randomNumber == 5 {
+        view.backgroundColor = .blue
+    }
+    if randomNumber == 6 {
+        view.backgroundColor = .purple
+    }
     }
     @IBAction func boardTapAction(_ sender: UIButton) {
 
