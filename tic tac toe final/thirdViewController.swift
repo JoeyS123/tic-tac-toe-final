@@ -15,7 +15,6 @@ class thirdViewController: UIViewController {
     case Nought
     case Cross
     }
-
     @IBOutlet weak var turnLabel: UILabel!
     @IBOutlet weak var topOne: UIButton!
     @IBOutlet weak var topTwo: UIButton!
@@ -27,13 +26,11 @@ class thirdViewController: UIViewController {
     @IBOutlet weak var bottomTwo: UIButton!
     @IBOutlet weak var bottomThree: UIButton!
     
-    
     var firstTurn = Turn.Cross
     var currentTurn = Turn.Cross
     var NOUGHT = "O"
     var CROSS = "X"
     var board = [UIButton]()
-    
     var noughtScore = 0
     var crossesScore = 0
     
@@ -57,7 +54,6 @@ class thirdViewController: UIViewController {
     
     randomNumber = Int(arc4random_uniform(6))
         print(randomNumber)
-    
     if randomNumber == 1 {
         view.backgroundColor = .gray
     }
@@ -92,14 +88,12 @@ class thirdViewController: UIViewController {
         noughtScore += 1
         resultAlert(title: "Player O wins")
     }
-    
     if(fullBoard())
     {
      resultAlert(title: "draw")
     }
 }
     func checkForVictory(_ s :String) -> Bool {
-        
         //  checking for the across wins
         if thisSymbol(topOne, s) && thisSymbol(topTwo, s)  && thisSymbol(topThree, s) {
             return true
@@ -120,26 +114,22 @@ class thirdViewController: UIViewController {
         if thisSymbol(topThree, s) && thisSymbol(middleThree, s)  && thisSymbol(bottomThree, s) {
             return true
         }
-      // diagonal
+        //
         if thisSymbol(topOne, s) && thisSymbol(middleTwo, s)  && thisSymbol(bottomThree, s) {
             return true
         }
         if thisSymbol(topThree, s) && thisSymbol(middleTwo, s)  && thisSymbol(bottomOne, s) {
             return true
         }
-        
-        
-       
-        
         return false
     }
     func thisSymbol(_ button: UIButton, _ symbol: String) -> Bool {
         return button.title(for: .normal) == symbol
     }
     func resultAlert(title: String){
-        
-        let message = "\nNoughts  " + String(noughtScore) + "\n\nCrosses" + String(crossesScore)
-        
+      
+    //should be let message = but doesnt work
+        _ = "\nNoughts  " + String(noughtScore) + "\n\nCrosses" + String(crossesScore)
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "New game", style: .default, handler: { (_) in
             self.resetBoard()
