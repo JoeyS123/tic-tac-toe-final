@@ -17,6 +17,7 @@
 		BF039B7B281878AF008F7525 /* tic_tac_toe_finalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF039B7A281878AF008F7525 /* tic_tac_toe_finalUITests.swift */; };
 		BF039B7D281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */; };
 		BF848BDC281B1B1500BF89C0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF848BDB281B1B1500BF89C0 /* ViewController2.swift */; };
+		F1030CAD2832E025008AEE30 /* batman_music_sfx.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1030CAC2832E025008AEE30 /* batman_music_sfx.wav */; };
 		F1488BB5282301EB00207BC1 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1488BB4282301EB00207BC1 /* thirdViewController.swift */; };
 		F180B364282D9C3D00709116 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F180B363282D9C3D00709116 /* fourthViewController.swift */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		BF039B7A281878AF008F7525 /* tic_tac_toe_finalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_finalUITests.swift; sourceTree = "<group>"; };
 		BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF848BDB281B1B1500BF89C0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		F1030CAC2832E025008AEE30 /* batman_music_sfx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = batman_music_sfx.wav; sourceTree = "<group>"; };
 		F1488BB4282301EB00207BC1 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		F180B363282D9C3D00709116 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,8 +115,10 @@
 				BF848BDB281B1B1500BF89C0 /* ViewController2.swift */,
 				F1488BB4282301EB00207BC1 /* thirdViewController.swift */,
 				BF039B62281878AE008F7525 /* Assets.xcassets */,
+				F1030CA52832DB8A008AEE30 /* sounds */,
 				BF039B64281878AE008F7525 /* LaunchScreen.storyboard */,
 				BF039B67281878AE008F7525 /* Info.plist */,
+				F1030CAC2832E025008AEE30 /* batman_music_sfx.wav */,
 			);
 			path = "tic tac toe final";
 			sourceTree = "<group>";
@@ -134,6 +138,13 @@
 				BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */,
 			);
 			path = "tic tac toe finalUITests";
+			sourceTree = "<group>";
+		};
+		F1030CA52832DB8A008AEE30 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +254,7 @@
 				BF039B66281878AE008F7525 /* LaunchScreen.storyboard in Resources */,
 				BF039B63281878AE008F7525 /* Assets.xcassets in Resources */,
 				BF039B61281878AC008F7525 /* Main.storyboard in Resources */,
+				F1030CAD2832E025008AEE30 /* batman_music_sfx.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

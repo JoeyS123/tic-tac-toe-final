@@ -9,7 +9,7 @@ import UIKit
 import AVFoundation
 class thirdViewController: UIViewController {
   
-    
+    var audioPlayer: AVAudioPlayer?
     var randomNumber : Int = 0
     enum Turn {
     case Nought
@@ -182,20 +182,37 @@ class thirdViewController: UIViewController {
             sender.isEnabled = false
         }
         
-        var audioPlayer: AVAudioPlayer?
         
-        func playSound(sound:String, type: String) {
-            if let path = Bundle.main.path(forResource: sound, ofType: type){
-                do {
-        audioPlayer = try AVAudioPlayer(contentsOf: URL (fileURLWithPath: path))
-                    audioPlayer?.play()
-                } catch {
-                    print("ERROR: Could not find and play the sound file!")
+        
+    //    func playSound(sound:String, type: String) {
+   //         if let path = Bundle.main.path(forResource: sound, ofType: type){
+    //            do {
+   //     audioPlayer = try AVAudioPlayer(contentsOf: URL (fileURLWithPath: path))
+     //               audioPlayer?.play()
+     //           } catch {
+     //               print("ERROR: Could not find and play the sound file!")
                     
-                }
-        
-}
-}
-
+//  }
+//}
+//}
     }
+    @IBAction func buttonPress(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+    
+
 }
+    
+
+
+
