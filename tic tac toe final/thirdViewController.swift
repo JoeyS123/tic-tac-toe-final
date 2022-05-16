@@ -54,7 +54,7 @@ class thirdViewController: UIViewController {
     
     randomNumber = Int(arc4random_uniform(6))
         print(randomNumber)
-    if randomNumber == 1 {
+    if randomNumber == 0 {
         view.backgroundColor = .gray
     }
     if randomNumber == 1 {
