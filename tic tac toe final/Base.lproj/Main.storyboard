@@ -58,6 +58,9 @@
                                                 <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="BindableObject:" destination="dGn-b3-4EJ" eventType="touchUpInside" id="qAJ-7I-8dZ"/>
+                                                </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdB-ZO-vVs">
                                                 <rect key="frame" x="279.5" y="0.0" width="134.5" height="134.5"/>

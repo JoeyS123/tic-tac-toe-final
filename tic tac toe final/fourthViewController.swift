@@ -9,21 +9,38 @@ import UIKit
 
 class fourthViewController: UIViewController {
 
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        func BindableObject(_ sender: UIButton) {
+            
+        enum SquareStatus {
+            case empty
+            case visitor
+            case home
+        }
+        class Square: BindableObject {
+            let didChange = PassthroughSubject<Void, Never>()
+            
+            var status: SquareStatus {
+                didSet {
+                    didChange.send(())
+                }
+            }
+            
+            init(status: SquareStatus) {
+                self.status = status
+            }
+        }
+            et didChange = PassthroughSubject <Void, Never> ()
+        
+        
+        
     }
     
 
-    /*
-    // MARK: - Navigation
+    
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+}
 }
