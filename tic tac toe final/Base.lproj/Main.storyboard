@@ -33,10 +33,10 @@
             </objects>
             <point key="canvasLocation" x="2115.9420289855075" y="-676.33928571428567"/>
         </scene>
-        <!--Third View Controller-->
+        <!--Fourth View Controller-->
         <scene sceneID="I5N-ug-wPq">
             <objects>
-                <viewController id="dGn-b3-4EJ" customClass="thirdViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="dGn-b3-4EJ" customClass="fourthViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EDr-gD-TZT" customClass="none">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,7 +51,7 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="134.5" height="134.5"/>
                                                 <color key="backgroundColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title=""/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEd-Jo-urz">
                                                 <rect key="frame" x="139.5" y="0.0" width="135" height="134.5"/>
