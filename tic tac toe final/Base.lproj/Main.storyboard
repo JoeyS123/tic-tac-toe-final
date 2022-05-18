@@ -173,6 +173,7 @@
                                                 <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="nSy-wH-Gaa"/>
+                                                    <action selector="t1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="OeU-25-fwH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mz0-c8-XEz">
@@ -183,6 +184,7 @@
                                                 <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="ii0-fE-7Qn"/>
+                                                    <action selector="t2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="JrN-eu-X0v"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-X8-2Pk">
@@ -193,6 +195,7 @@
                                                 <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NwW-or-W4f"/>
+                                                    <action selector="t3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="bex-Yw-7l0"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -207,6 +210,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="M1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="D6b-lv-YCf"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="a7E-Cr-r6I"/>
                                                 </connections>
                                             </button>
@@ -218,6 +222,7 @@
                                                 <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="vDV-kN-8Na"/>
+                                                    <action selector="m2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="WUH-rW-SWP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFo-WH-gTv">
@@ -227,6 +232,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="M3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NNR-A3-HKx"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="HoJ-UZ-af2"/>
                                                 </connections>
                                             </button>
@@ -242,6 +248,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="B1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="e9l-Sf-tXh"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="enk-vr-DAq"/>
                                                 </connections>
                                             </button>
@@ -252,6 +259,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="B2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="FLj-4o-SFP"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NM6-0Q-WM4"/>
                                                 </connections>
                                             </button>
@@ -262,6 +270,7 @@
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                                 <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="b3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="xfZ-zm-eK5"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="kEK-Va-iVD"/>
                                                 </connections>
                                             </button>
@@ -287,21 +296,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlt-dF-Ej5">
-                                <rect key="frame" x="107" y="738" width="194" height="104"/>
+                                <rect key="frame" x="107" y="738" width="195" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="random number generator"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Random background color"/>
                                 <connections>
                                     <action selector="randomcolor:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="EDH-KP-ghD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdD-7i-BG2">
-                                <rect key="frame" x="326" y="143" width="67" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="buttonPress:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="was-GV-WhN"/>
                                 </connections>
                             </button>
                         </subviews>

@@ -5,42 +5,42 @@
 //  Created by Logan Peterson on 5/12/22.
 //
 
-import UIKit
+//import UIKit
 
-class fourthViewController: UIViewController {
+//class fourthViewController: UIViewController {
 
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        func BindableObject(_ sender: UIButton) {
+  //  override func viewDidLoad() {
+  //      super.viewDidLoad()
+//
+  //      func BindableObject(_ sender: UIButton) {
             
-        enum SquareStatus {
-            case empty
-            case visitor
-            case home
-        }
-        class Square: BindableObject {
-            let didChange = PassthroughSubject<Void, Never>()
+  //      enum SquareStatus {
+  //          case empty
+  //          case visitor
+  //          case home//
+    //    }
+  //      class Square: BindableObject {
+   //        let didChange = PassthroughSubject<Void, Never>()
             
-            var status: SquareStatus {
-                didSet {
-                    didChange.send(())
-                }
-            }
+   //         var status: SquareStatus {
+    //            didSet {
+    //                didChange.send(())
+ //               }
+ //           }//
             
-            init(status: SquareStatus) {
-                self.status = status
-            }
-        }
-            et didChange = PassthroughSubject <Void, Never> ()
+     //       init(status: SquareStatus) {
+    //            self.status = status
+   //         }
+    //    }
+   //        et didChange = PassthroughSubject <Void, Never> ()
         
         
         
-    }
+  //  }
     
 
     
 
-}
-}
+//}
+//}
