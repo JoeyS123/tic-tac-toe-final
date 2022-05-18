@@ -124,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQx-gn-6n2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1604.3478260869567" y="34.821428571428569"/>
+            <point key="canvasLocation" x="229" y="-676"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="G4v-dk-CQK">
@@ -308,7 +308,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-2q-0cP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1097.1014492753625" y="-676.33928571428567"/>
+            <point key="canvasLocation" x="-845" y="-676"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="JRU-yv-00H">
@@ -336,13 +336,6 @@
                                 <rect key="frame" x="9" y="554" width="414" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHk-4c-CQd">
-                                <rect key="frame" x="8" y="44" width="386" height="483"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -378,18 +371,25 @@
                                     <action selector="funfact:" destination="sDp-rH-EPY" eventType="touchUpInside" id="4Ck-Sg-Xip"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxU-Wc-TG5">
+                                <rect key="frame" x="77" y="78" width="158" height="222"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="acZ-a9-kwR"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="dgS-ak-vCS"/>
                     <connections>
-                        <outlet property="labal" destination="oHk-4c-CQd" id="h10-Ys-ly6"/>
+                        <outlet property="label" destination="TxU-Wc-TG5" id="KDs-Bb-1no"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FY7-v5-35x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1055.072463768116" y="320.75892857142856"/>
+            <point key="canvasLocation" x="-1155.072463768116" y="68.973214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -561,7 +561,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SxI-WD-bbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3134.7826086956525" y="755.35714285714278"/>
+            <point key="canvasLocation" x="-43" y="812"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KkS-VM-90d">
@@ -612,7 +612,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pds-kE-XTG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4231.884057971015" y="762.72321428571422"/>
+            <point key="canvasLocation" x="933" y="812"/>
         </scene>
     </scenes>
     <resources>
