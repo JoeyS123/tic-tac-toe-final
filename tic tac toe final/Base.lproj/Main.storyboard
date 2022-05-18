@@ -124,7 +124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQx-gn-6n2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1604.3478260869567" y="34.821428571428569"/>
+            <point key="canvasLocation" x="229" y="-676"/>
         </scene>
         <!--Third View Controller-->
         <scene sceneID="G4v-dk-CQK">
@@ -145,9 +145,9 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="nSy-wH-Gaa"/>
+                                                    <action selector="t1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="OeU-25-fwH"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mz0-c8-XEz">
@@ -155,9 +155,9 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="ii0-fE-7Qn"/>
+                                                    <action selector="t2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="JrN-eu-X0v"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BvV-X8-2Pk">
@@ -165,9 +165,9 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NwW-or-W4f"/>
+                                                    <action selector="t3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="bex-Yw-7l0"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -180,8 +180,8 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="M1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="D6b-lv-YCf"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="a7E-Cr-r6I"/>
                                                 </connections>
                                             </button>
@@ -190,9 +190,9 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="vDV-kN-8Na"/>
+                                                    <action selector="m2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="WUH-rW-SWP"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cFo-WH-gTv">
@@ -200,8 +200,8 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="M3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NNR-A3-HKx"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="HoJ-UZ-af2"/>
                                                 </connections>
                                             </button>
@@ -215,8 +215,8 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="B1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="e9l-Sf-tXh"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="enk-vr-DAq"/>
                                                 </connections>
                                             </button>
@@ -225,8 +225,8 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="B2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="FLj-4o-SFP"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NM6-0Q-WM4"/>
                                                 </connections>
                                             </button>
@@ -235,8 +235,8 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
+                                                    <action selector="b3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="xfZ-zm-eK5"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="kEK-Va-iVD"/>
                                                 </connections>
                                             </button>
@@ -262,21 +262,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlt-dF-Ej5">
-                                <rect key="frame" x="107" y="738" width="194" height="104"/>
+                                <rect key="frame" x="107" y="738" width="195" height="104"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="random number generator"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Random background color"/>
                                 <connections>
                                     <action selector="randomcolor:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="EDH-KP-ghD"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rdD-7i-BG2">
-                                <rect key="frame" x="326" y="143" width="67" height="83"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="buttonPress:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="was-GV-WhN"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -306,7 +299,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-2q-0cP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1097.1014492753625" y="-676.33928571428567"/>
+            <point key="canvasLocation" x="-845" y="-676"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="JRU-yv-00H">
@@ -334,13 +327,6 @@
                                 <rect key="frame" x="9" y="554" width="414" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oHk-4c-CQd">
-                                <rect key="frame" x="8" y="44" width="386" height="483"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -376,18 +362,25 @@
                                     <action selector="funfact:" destination="sDp-rH-EPY" eventType="touchUpInside" id="4Ck-Sg-Xip"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxU-Wc-TG5">
+                                <rect key="frame" x="77" y="78" width="317" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="acZ-a9-kwR"/>
                         <color key="backgroundColor" systemColor="systemGreenColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="dgS-ak-vCS"/>
                     <connections>
-                        <outlet property="labal" destination="oHk-4c-CQd" id="h10-Ys-ly6"/>
+                        <outlet property="label" destination="TxU-Wc-TG5" id="KDs-Bb-1no"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FY7-v5-35x" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1055.072463768116" y="320.75892857142856"/>
+            <point key="canvasLocation" x="-1155.072463768116" y="68.973214285714278"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -559,7 +552,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SxI-WD-bbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3134.7826086956525" y="755.35714285714278"/>
+            <point key="canvasLocation" x="-43" y="812"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="KkS-VM-90d">
@@ -610,7 +603,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pds-kE-XTG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4231.884057971015" y="762.72321428571422"/>
+            <point key="canvasLocation" x="933" y="812"/>
         </scene>
     </scenes>
     <resources>

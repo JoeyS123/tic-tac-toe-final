@@ -210,8 +210,132 @@ class thirdViewController: UIViewController {
     }
     }
     
+    @IBAction func t1Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+    @IBAction func t2Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+    @IBAction func t3Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+    
+    @IBAction func M1Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
 
+    @IBAction func m2Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+
+    @IBAction func M3Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+
+    @IBAction func B1Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+
+    @IBAction func B2Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
+
+    @IBAction func b3Sound(_ sender: Any) {
+        let pathToSound = Bundle.main.path(forResource: "batman_music_sfx", ofType: "wav")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do{
+            audioPlayer  = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        }
+    catch
+        {
+  print(error)
+    }
+    }
 }
+    
+
     
 
 

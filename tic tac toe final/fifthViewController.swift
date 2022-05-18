@@ -8,7 +8,8 @@
 import UIKit
 
 class fifthViewController: UIViewController {
-    @IBOutlet weak var labal: UILabel!
+    @IBOutlet weak var label: UILabel!
+   
     var randomfact = 0
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,19 +22,19 @@ class fifthViewController: UIViewController {
         randomfact = Int(arc4random_uniform(4))
             print(randomfact)
         if randomfact == 0 {
-            labal.text = "Tic tac toe dates  all the way back to 1300B"
+            label.text = "Tic tac toe dates  all the way back to 1300B"
         }
         if randomfact == 1 {
-            labal.text = "There are 362,800 distinct ways to place the X's and O's"
+            label.text = "There are 362,800 distinct ways to place the X's and O's"
         }
         if randomfact == 2 {
-            labal.text = "It had become the worlds first video game"
+            label.text = "It had become the worlds first video game"
         }
         if randomfact == 3 {
-            labal.text = "The game was not named Tic tac toe until the 20th century"
+            label.text = "The game was not named Tic tac toe until the 20th century"
         }
         if randomfact == 4 {
-            labal.text = "There are only 138 winning combinations"
+            label.text = "There are only 138 winning combinations"
         }
     
     }
