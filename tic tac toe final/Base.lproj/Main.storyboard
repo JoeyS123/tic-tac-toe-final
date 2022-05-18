@@ -145,7 +145,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="nSy-wH-Gaa"/>
                                                     <action selector="t1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="OeU-25-fwH"/>
@@ -156,7 +155,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="ii0-fE-7Qn"/>
                                                     <action selector="t2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="JrN-eu-X0v"/>
@@ -167,7 +165,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NwW-or-W4f"/>
                                                     <action selector="t3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="bex-Yw-7l0"/>
@@ -183,7 +180,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="M1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="D6b-lv-YCf"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="a7E-Cr-r6I"/>
@@ -194,7 +190,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="vDV-kN-8Na"/>
                                                     <action selector="m2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="WUH-rW-SWP"/>
@@ -205,7 +200,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="M3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NNR-A3-HKx"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="HoJ-UZ-af2"/>
@@ -221,7 +215,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="B1Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="e9l-Sf-tXh"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="enk-vr-DAq"/>
@@ -232,7 +225,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="B2Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="FLj-4o-SFP"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="NM6-0Q-WM4"/>
@@ -243,7 +235,6 @@
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="?"/>
                                                 <connections>
                                                     <action selector="b3Sound:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="xfZ-zm-eK5"/>
                                                     <action selector="boardTapAction:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="kEK-Va-iVD"/>
