@@ -22,13 +22,13 @@ class fifthViewController: UIViewController {
         randomfact = Int(arc4random_uniform(4))
             print(randomfact)
         if randomfact == 0 {
-            label.text = "Tic tac toe dates  all the way back to 1300B"
+            label.text = "Tic tac toe dates all the way back to 1300B"
         }
         if randomfact == 1 {
             label.text = "There are 362,800 distinct ways to place the X's and O's"
         }
         if randomfact == 2 {
-            label.text = "It had become the worlds first video game"
+            label.text = "It was the worlds first video game"
         }
         if randomfact == 3 {
             label.text = "The game was not named Tic tac toe until the 20th century"
