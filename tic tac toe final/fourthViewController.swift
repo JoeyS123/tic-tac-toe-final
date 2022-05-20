@@ -9,7 +9,7 @@ import SwiftUI
 
 class fourthViewController: UIViewController {
 
-    
+    var randomNumber : Int = 0
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -66,11 +66,41 @@ class fourthViewController: UIViewController {
             static var previews: some View {
                 ContentView()
             }
+        
+        
+        
         }
         
     }
     
 
+    @IBAction func randomcolor1(_ sender: Any) {
+        randomNumber = Int(arc4random_uniform(6))
+            print(randomNumber)
+        if randomNumber == 0 {
+            view.backgroundColor = .gray
+        }
+        if randomNumber == 1 {
+            view.backgroundColor = .red
+        }
+        if randomNumber == 2 {
+            view.backgroundColor = .orange
+        }
+        if randomNumber == 3 {
+            view.backgroundColor = .yellow
+        }
+        if randomNumber == 4 {
+            view.backgroundColor = .green
+        }
+        if randomNumber == 5 {
+            view.backgroundColor = .blue
+        }
+        if randomNumber == 6 {
+            view.backgroundColor = .purple
+        }
+    
+    
+    }
     
 
 }
