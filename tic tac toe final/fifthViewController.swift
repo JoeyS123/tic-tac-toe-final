@@ -19,7 +19,7 @@ class fifthViewController: UIViewController {
     
     @IBAction func funfact(_ sender: Any) {
     
-        randomfact = Int(arc4random_uniform(4))
+        randomfact = Int(arc4random_uniform(6))
             print(randomfact)
         if randomfact == 0 {
             label.text = "Tic tac toe dates all the way back to 1300B"
@@ -36,7 +36,11 @@ class fifthViewController: UIViewController {
         if randomfact == 4 {
             label.text = "There are only 138 winning combinations"
         }
-    
+        if randomfact == 5 {
+            label.text = "26,830 diffrent game board possible"
+        }
+        if randomfact == 6 {
+            label.text = "only 3 ways can cause a tie"
     }
     
     /*
@@ -49,4 +53,5 @@ class fifthViewController: UIViewController {
     }
     */
 
+}
 }
