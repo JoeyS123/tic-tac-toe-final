@@ -20,6 +20,7 @@
 		BF039B7D281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */; };
 		BF848BDC281B1B1500BF89C0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF848BDB281B1B1500BF89C0 /* ViewController2.swift */; };
 		F1030CAD2832E025008AEE30 /* batman_music_sfx.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1030CAC2832E025008AEE30 /* batman_music_sfx.wav */; };
+		F12C8B1A2838204E00040721 /* extraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12C8B192838204E00040721 /* extraViewController.swift */; };
 		F1488BB5282301EB00207BC1 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1488BB4282301EB00207BC1 /* thirdViewController.swift */; };
 		F180B364282D9C3D00709116 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F180B363282D9C3D00709116 /* fourthViewController.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		BF039B7C281878AF008F7525 /* tic_tac_toe_finalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tic_tac_toe_finalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BF848BDB281B1B1500BF89C0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		F1030CAC2832E025008AEE30 /* batman_music_sfx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = batman_music_sfx.wav; sourceTree = "<group>"; };
+		F12C8B192838204E00040721 /* extraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extraViewController.swift; sourceTree = "<group>"; };
 		F1488BB4282301EB00207BC1 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 		F180B363282D9C3D00709116 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -115,6 +117,7 @@
 				BF039B59281878AC008F7525 /* AppDelegate.swift */,
 				BF039B5B281878AC008F7525 /* SceneDelegate.swift */,
 				BF039B5F281878AC008F7525 /* Main.storyboard */,
+				F12C8B192838204E00040721 /* extraViewController.swift */,
 				B7A02BBB2832DA1F00B8DE4F /* fifthViewController.swift */,
 				F180B363282D9C3D00709116 /* fourthViewController.swift */,
 				BF039B5D281878AC008F7525 /* ViewController.swift */,
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF039B5E281878AC008F7525 /* ViewController.swift in Sources */,
+				F12C8B1A2838204E00040721 /* extraViewController.swift in Sources */,
 				BF848BDC281B1B1500BF89C0 /* ViewController2.swift in Sources */,
 				B7A02BBA2832D9E800B8DE4F /* File.swift in Sources */,
 				F180B364282D9C3D00709116 /* fourthViewController.swift in Sources */,
