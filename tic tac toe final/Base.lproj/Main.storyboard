@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="dGn-b3-4EJ" customClass="fourthViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="EDr-gD-TZT" customClass="none">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="vPm-Dl-lue">
-                                <rect key="frame" x="0.0" y="236.5" width="414" height="413"/>
+                                <rect key="frame" x="0.0" y="222" width="414" height="413"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8Re-LA-SY2">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="134.5"/>
@@ -130,7 +130,9 @@
                             <constraint firstItem="vPm-Dl-lue" firstAttribute="width" secondItem="EDr-gD-TZT" secondAttribute="width" id="o3Q-tD-mqV"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="okS-kB-gyO"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KQx-gn-6n2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -145,7 +147,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="txe-Te-Byz">
-                                <rect key="frame" x="20.5" y="266.5" width="373" height="373"/>
+                                <rect key="frame" x="20.5" y="242" width="373" height="373"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cLi-tc-fUw">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="121"/>
@@ -272,13 +274,22 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlt-dF-Ej5">
-                                <rect key="frame" x="0.0" y="639.5" width="414" height="222.5"/>
+                                <rect key="frame" x="0.0" y="615" width="414" height="198"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Random background color"/>
                                 <connections>
                                     <action selector="randomcolor:" destination="nHB-Vy-cSW" eventType="touchUpInside" id="EDH-KP-ghD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uZn-iU-uon">
+                                <rect key="frame" x="298" y="44" width="124" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="return to home "/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalPresentationStyle="fullScreen" id="qvh-td-Rg7"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -296,7 +307,9 @@
                             <constraint firstItem="txe-Te-Byz" firstAttribute="centerY" secondItem="qTN-1F-kxQ" secondAttribute="centerY" id="y0g-6n-NIH"/>
                         </constraints>
                     </view>
+                    <toolbarItems/>
                     <navigationItem key="navigationItem" id="OaJ-oG-eET"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="bottomOne" destination="W4g-pB-6Hz" id="9eo-Sz-HVw"/>
                         <outlet property="bottomThree" destination="FWm-fG-xDa" id="pbI-er-5uo"/>
@@ -312,14 +325,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ftg-2q-0cP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-845" y="-676"/>
+            <point key="canvasLocation" x="-945" y="-759"/>
         </scene>
         <!--Fifth View Controller-->
         <scene sceneID="JRU-yv-00H">
             <objects>
                 <viewController id="sDp-rH-EPY" customClass="fifthViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="A2g-ly-g6N">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Aw-5i-k9G">
@@ -426,7 +439,7 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nHB-Vy-cSW" kind="presentation" modalPresentationStyle="fullScreen" id="ttK-3Q-Gff"/>
+                                    <segue destination="nHB-Vy-cSW" kind="presentation" modalPresentationStyle="fullScreen" id="QO2-ne-D4z"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player vs AI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoI-yH-l88">
@@ -531,6 +544,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="Lga-az-yOz"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -541,7 +557,7 @@
             <objects>
                 <viewController id="N78-3F-iOF" customClass="extraViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4f4-DJ-HHj">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="sPc-c6-RCv"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -557,7 +573,7 @@
             <objects>
                 <viewController id="8OK-Vy-itH" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yam-yE-rl9">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="RULES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zH-mi-bNP">
@@ -606,7 +622,7 @@
             <objects>
                 <viewController id="ULg-f5-O0V" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YDi-gK-l0A">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="download-7" translatesAutoresizingMaskIntoConstraints="NO" id="kdE-Ef-XQF">
