@@ -129,10 +129,11 @@ class thirdViewController: UIViewController {
     func resultAlert(title: String){
       
     //should be let message = but doesnt work
-        _ = "\nNoughts  " + String(noughtScore) + "\n\nCrosses" + String(crossesScore)
+       
         let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
         ac.addAction(UIAlertAction(title: "New game", style: .default, handler: { (_) in
             self.resetBoard()
+       
         }))
         self.present(ac, animated: true)
     }

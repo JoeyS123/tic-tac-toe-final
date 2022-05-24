@@ -141,11 +141,11 @@
             <objects>
                 <viewController id="nHB-Vy-cSW" customClass="thirdViewController" customModule="tic_tac_toe_final" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="une-v8-MdO">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="txe-Te-Byz">
-                                <rect key="frame" x="20.5" y="256.5" width="373" height="373"/>
+                                <rect key="frame" x="20.5" y="266.5" width="373" height="373"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cLi-tc-fUw">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="121"/>
@@ -271,9 +271,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlt-dF-Ej5">
-                                <rect key="frame" x="107" y="738" width="195" height="104"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vlt-dF-Ej5">
+                                <rect key="frame" x="0.0" y="639.5" width="414" height="222.5"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -287,9 +286,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="2Y1-Qi-JEg" firstAttribute="top" secondItem="qTN-1F-kxQ" secondAttribute="top" id="2Jb-W2-VLE"/>
+                            <constraint firstItem="vlt-dF-Ej5" firstAttribute="leading" secondItem="qTN-1F-kxQ" secondAttribute="leading" id="8PO-Nc-29H"/>
+                            <constraint firstItem="qTN-1F-kxQ" firstAttribute="trailing" secondItem="vlt-dF-Ej5" secondAttribute="trailing" id="CO5-hI-2tH"/>
                             <constraint firstItem="txe-Te-Byz" firstAttribute="width" secondItem="une-v8-MdO" secondAttribute="width" multiplier="0.9" id="Riv-Fa-Se8"/>
+                            <constraint firstItem="vlt-dF-Ej5" firstAttribute="top" secondItem="txe-Te-Byz" secondAttribute="bottom" id="XHT-2y-ZGM"/>
                             <constraint firstItem="txe-Te-Byz" firstAttribute="centerX" secondItem="qTN-1F-kxQ" secondAttribute="centerX" id="eBc-Z4-A4T"/>
                             <constraint firstItem="2Y1-Qi-JEg" firstAttribute="centerX" secondItem="qTN-1F-kxQ" secondAttribute="centerX" id="eOh-QV-hgg"/>
+                            <constraint firstItem="vlt-dF-Ej5" firstAttribute="bottom" secondItem="qTN-1F-kxQ" secondAttribute="bottom" id="x3R-7t-g53"/>
                             <constraint firstItem="txe-Te-Byz" firstAttribute="centerY" secondItem="qTN-1F-kxQ" secondAttribute="centerY" id="y0g-6n-NIH"/>
                         </constraints>
                     </view>
@@ -423,10 +426,10 @@
                                     <fontDescription key="titleFontDescription" type="system" pointSize="30"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="nHB-Vy-cSW" kind="show" id="ttK-3Q-Gff"/>
+                                    <segue destination="nHB-Vy-cSW" kind="presentation" modalPresentationStyle="fullScreen" id="ttK-3Q-Gff"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player vrs AI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoI-yH-l88">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player vs AI" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eoI-yH-l88">
                                 <rect key="frame" x="36" y="244" width="200" height="130"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
@@ -492,7 +495,7 @@
                                     <action selector="historyLink:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zln-Ld-bkn"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player vrs Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Md-LF-K5Z">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player vs Player" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Md-LF-K5Z">
                                 <rect key="frame" x="10" y="111" width="279" height="180"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
@@ -506,22 +509,24 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="extras" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryR-qK-SLO">
-                                <rect key="frame" x="36" y="789" width="129" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grK-GO-nhg">
-                                <rect key="frame" x="288" y="773" width="67" height="78"/>
+                                <rect key="frame" x="274" y="773" width="96" height="78"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="press here ">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="29"/>
+                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="N78-3F-iOF" kind="show" id="b7W-0v-7BN"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="extras" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ryR-qK-SLO">
+                                <rect key="frame" x="49" y="779" width="129" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
