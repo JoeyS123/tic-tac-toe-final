@@ -14,10 +14,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor  = .cyan
+      
     }
 
     @IBAction func historyLink(_ sender: Any) {
+    
+    
 
         
         UIApplication.shared.open(URL(string: "https://aurosi.com/blog/the-history-of-tic-tac-toe-and-where-it-is-now/)")! as URL, options: [ : ], completionHandler: nil)
@@ -26,4 +28,5 @@ class ViewController: UIViewController {
     
 
 }
+
 
