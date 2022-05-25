@@ -130,7 +130,7 @@ class thirdViewController: UIViewController {
       
     //should be let message = but doesnt work
        
-        let ac = UIAlertController(title: title, message: nil, preferredStyle: .actionSheet)
+        let ac = UIAlertController(title: title, message: nil, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "New game", style: .default, handler: { (_) in
             self.resetBoard()
        
