@@ -260,15 +260,14 @@
                                     <constraint firstAttribute="width" secondItem="txe-Te-Byz" secondAttribute="height" multiplier="1:1" id="rq8-21-d05"/>
                                 </constraints>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who's turn?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Y1-Qi-JEg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Who's turn?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Y1-Qi-JEg">
                                 <rect key="frame" x="129" y="44" width="156.5" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Je-oK-nTt">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="X" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Je-oK-nTt">
                                 <rect key="frame" x="177" y="132" width="60" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="60"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -299,11 +298,15 @@
                             <constraint firstItem="2Y1-Qi-JEg" firstAttribute="top" secondItem="qTN-1F-kxQ" secondAttribute="top" id="2Jb-W2-VLE"/>
                             <constraint firstItem="vlt-dF-Ej5" firstAttribute="leading" secondItem="qTN-1F-kxQ" secondAttribute="leading" id="8PO-Nc-29H"/>
                             <constraint firstItem="qTN-1F-kxQ" firstAttribute="trailing" secondItem="vlt-dF-Ej5" secondAttribute="trailing" id="CO5-hI-2tH"/>
+                            <constraint firstItem="qTN-1F-kxQ" firstAttribute="trailing" secondItem="1Je-oK-nTt" secondAttribute="trailing" constant="177" id="KVv-Bb-aWB"/>
+                            <constraint firstItem="txe-Te-Byz" firstAttribute="top" secondItem="1Je-oK-nTt" secondAttribute="bottom" constant="31" id="NRr-p2-rdn"/>
                             <constraint firstItem="txe-Te-Byz" firstAttribute="width" secondItem="une-v8-MdO" secondAttribute="width" multiplier="0.9" id="Riv-Fa-Se8"/>
                             <constraint firstItem="vlt-dF-Ej5" firstAttribute="top" secondItem="txe-Te-Byz" secondAttribute="bottom" id="XHT-2y-ZGM"/>
                             <constraint firstItem="txe-Te-Byz" firstAttribute="centerX" secondItem="qTN-1F-kxQ" secondAttribute="centerX" id="eBc-Z4-A4T"/>
                             <constraint firstItem="2Y1-Qi-JEg" firstAttribute="centerX" secondItem="qTN-1F-kxQ" secondAttribute="centerX" id="eOh-QV-hgg"/>
+                            <constraint firstItem="1Je-oK-nTt" firstAttribute="top" secondItem="2Y1-Qi-JEg" secondAttribute="bottom" constant="52" id="uYz-4y-ki5"/>
                             <constraint firstItem="vlt-dF-Ej5" firstAttribute="bottom" secondItem="qTN-1F-kxQ" secondAttribute="bottom" id="x3R-7t-g53"/>
+                            <constraint firstItem="1Je-oK-nTt" firstAttribute="leading" secondItem="qTN-1F-kxQ" secondAttribute="leading" constant="177" id="xtX-sD-1fZ"/>
                             <constraint firstItem="txe-Te-Byz" firstAttribute="centerY" secondItem="qTN-1F-kxQ" secondAttribute="centerY" id="y0g-6n-NIH"/>
                         </constraints>
                     </view>
